@@ -1,3 +1,4 @@
+/* Universally applied properties */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,6 +9,7 @@ body {
   background-color: #d9dcd6;
 }
 
+/* Different font options for fallback and other header properties */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -21,10 +23,12 @@ h1 {
   font-size: 48px;
 }
 
+/* Span property */
 h1 .seo {
   color: #d9dcd6;
 }
 
+/* Navigation properties */
 header div {
   padding-top: 15px;
   margin-right: 20px;
@@ -43,6 +47,7 @@ header a {
   text-decoration: none;
 }
 
+/* Landing Image, size, margin and positioning */
 .hero {
   height: 800px;
   width: 100%;
@@ -52,12 +57,14 @@ header a {
   background-position: center;
 }
 
+/* Main section size and display properties */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* Properties of 3 division under the main section  */
 .content-types {
   margin-bottom: 20px;
   padding: 50px;
@@ -67,6 +74,7 @@ header a {
   color: #ffffff;
 }
 
+/* Main section's content image size */
 .content img {
   max-height: 200px;
 }
@@ -86,6 +94,7 @@ h2 {
   margin-left: 25px;
 }
 
+/* Aside size, margin and other display properties */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -107,6 +116,7 @@ h3 {
   text-align: center;
 }
 
+/* Aside's logo image properties */
 .benefits img {
   display: block;
   margin: 10px auto;
